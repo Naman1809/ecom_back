@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const MONGO_URI =
-  process.env.MONGO_URI;
+  "mongodb+srv://namankukreja01:mIMLYIxJEIXoYo89@cluster0.idk2n9q.mongodb.net/MarketLink?retryWrites=true&w=majority";
   
   const connectDatabase = async () => {
     try {
